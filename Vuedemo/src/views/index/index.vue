@@ -1,29 +1,21 @@
 <template>
-  <div class="goods_detail_video" >
+  <div class="goods_detail_video">
 
-     <div>{{msg}}</div>
-
-    </div>
+    <div>{{msg}}</div>
+    <h3>年龄</h3>
+    <div>{{agearr}}</div>
+    <h3>性别</h3>
+    <div>{{sexarr}}</div>
+  </div>
 </template>
 
 <script>
 </script>
 
-<style>
-
-</style>
 <script>
-
-export default {
-  name: "Login",
-  data() {
-    return {
-   msg:'测试测试',
-    };
-  },
-
-  methods: {
-
-  }
-};
+  import index from './js/index.js';
+  export default index;
 </script>
+<style>
+  @import url("./css/index.css");
+</style>
